@@ -1,4 +1,4 @@
-// Author: Burak Özdemir
+// Author: Burak Ã–zdemir
 #include "Detection.h"
 
 /// This constructor initializes a Detection object with default values. This default constructor initializes the CommonProcesses object with the specified ID and image.
