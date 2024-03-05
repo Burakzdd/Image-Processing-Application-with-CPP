@@ -1,4 +1,4 @@
-// Author: Burak Özdemir
+// Author: Burak Ã–zdemir
 #include "CornerDetection.h"
 
 /// @details This constructor initializes a CornerDetection object with the specified identifier and image, threshold.
