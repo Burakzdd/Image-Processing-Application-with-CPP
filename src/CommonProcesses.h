@@ -1,4 +1,4 @@
-// Author: Burak Özdemir
+// Author: Burak Ã–zdemir
 #pragma once
 #include <iostream>
 #include <string>
@@ -33,7 +33,7 @@ class CommonProcesses{
 		/// @brief Default Constructor for the CommonProcesses class.
 		/// @param id The ID to set for the CommonProcesses object (default is "0").
 		/// @param image The image data to set for the CommonProcesses object (default is an empty matrix).
-		CommonProcesses(string = "0", Mat = Mat(0, 0, CV_64F)); // içine id ve görüntüyü alýr.
+		CommonProcesses(string = "0", Mat = Mat(0, 0, CV_64F)); // iÃ§ine id ve gÃ¶rÃ¼ntÃ¼yÃ¼ alÃ½r.
 
 		/// @brief Constructor for the CommonProcesses class that reads an image from a file.
 		/// @param id The ID to set for the CommonProcesses object.
