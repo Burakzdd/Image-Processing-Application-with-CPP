@@ -1,4 +1,4 @@
-// Author: Burak Özdemir
+// Author: Burak Ã–zdemir
 #include "CommonProcesses.h"
 
 /// @details This default constructor initializes the CommonProcesses object with the specified ID and image. It sets these parameters inside.
