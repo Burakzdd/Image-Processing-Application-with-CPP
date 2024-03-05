@@ -2,6 +2,11 @@
 
 This project is a C++ application for performing various operations on RGB images. The application utilizes the OpenCV library to perform image processing tasks.
 
+## Architecture
+The architecture of this project follows an object-oriented design where the `CommonProcesses` class serves as the base class, and the `Detection` class is derived from it. Both `LineDetection` 
+and `CornerDetection` classes further inherit from the `Detection` class. This architecture allows for a modular and extensible design, where common image processing functionalities are defined 
+in the `CommonProcesses` class, while specific detection tasks like edge and corner detection are implemented in the derived classes.
+
 ## Features
 
 - **Image Loading and Display:** Load and visualize images using the `CommonProcesses` class.
@@ -103,12 +108,21 @@ This project is a C++ application for performing various operations on RGB image
        return 0;
    }
    ```
+# Detailed Description
+
+## Line Detection
+
+Line detection is performed using the Hough Line Transform. The `LineDetection` class extends the `Detection` class and utilizes OpenCV's `HoughLinesP` function to detect lines in the image. After detecting the lines, the class provides methods to visualize the detected lines, adjust the threshold value for line detection, and write the detected lines to a file.
+
+## Corner Detection
+
+Corner detection is performed using the Harris Corner Detection algorithm. The `CornerDetection` class extends the `Detection` class and utilizes OpenCV's `cornerHarris` function to detect corners in the image. After detecting the corners, the class provides methods to visualize the detected corners, adjust the threshold value for corner detection, and write the detected corners to a file.
 
 ## Requirements
 
 - C++ compiler
 - OpenCV library
-
+- Python3 for matplotlib.h code The code for matplotlib.h has not been written by me, but it is a pre-existing library code.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
