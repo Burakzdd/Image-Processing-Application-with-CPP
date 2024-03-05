@@ -1,4 +1,4 @@
-// Author: Burak Özdemir
+// Author: Burak Ã–zdemir
 #pragma once
 #include <vector>
 #include "CommonProcesses.h"
