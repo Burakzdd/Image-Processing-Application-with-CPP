@@ -108,13 +108,13 @@ in the `CommonProcesses` class, while specific detection tasks like edge and cor
        return 0;
    }
    ```
-# Detailed Description
+## Detailed Description
 
-## Line Detection
+### Line Detection
 
 Line detection is performed using the Hough Line Transform. The `LineDetection` class extends the `Detection` class and utilizes OpenCV's `HoughLinesP` function to detect lines in the image. After detecting the lines, the class provides methods to visualize the detected lines, adjust the threshold value for line detection, and write the detected lines to a file.
 
-## Corner Detection
+### Corner Detection
 
 Corner detection is performed using the Harris Corner Detection algorithm. The `CornerDetection` class extends the `Detection` class and utilizes OpenCV's `cornerHarris` function to detect corners in the image. After detecting the corners, the class provides methods to visualize the detected corners, adjust the threshold value for corner detection, and write the detected corners to a file.
 
