@@ -1,4 +1,4 @@
-﻿// Feature_Detection_of_RGBImage.cpp 
+﻿// main.cpp 
 // Author: Burak Özdemir
 //
 #include <iostream>
