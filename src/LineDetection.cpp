@@ -1,3 +1,4 @@
+// Authot: Burak Özdemir
 #include "LineDetection.h"
 
 
